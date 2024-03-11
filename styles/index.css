@@ -3,9 +3,14 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0%;
+   
+}
+
+body main{
     overflow: hidden;
 }
-header button{
+
+header button {
     background-color: transparent;
     border: none;
     display: flex;
@@ -13,16 +18,14 @@ header button{
     align-items: center;
     cursor: pointer;
 }
-a{
+
+a {
     color: white;
     text-decoration: none;
 }
-.container2{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 
-}
+
+
 body .parte1 {
     display: grid;
     justify-content: space-around;
@@ -32,7 +35,7 @@ body .parte1 {
     overflow: hidden;
 }
 
-img {
+header img {
     height: 60px;
 }
 
@@ -42,7 +45,6 @@ body .parte2 {
     background-color: rgb(49, 47, 47);
     height: 60px;
     overflow: hidden;
-
 }
 
 header .pesquisa {
@@ -61,7 +63,7 @@ header .barra {
     grid-template-columns: 90% 8%;
     justify-content: space-around;
     align-items: center;
-    
+
 }
 
 input {
@@ -73,51 +75,55 @@ input {
 .suporte {
     width: 100vw;
 
-    
+
 }
 
 
 
-.parte3{
+.parte3 {
     background-color: rgb(32, 30, 30);
     overflow: hidden;
- 
+
 }
+
 .conta {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-header .texto{
+header .texto {
     display: grid;
     justify-content: space-around;
     text-align: center;
-    grid-template-columns: 5vw 5vw 5vw 5vw 5vw  ;
+    grid-template-columns: 5vw 5vw 5vw 5vw 5vw;
     height: 110px;
-   
 }
 
-@media(max-width: 1048px){
-    .img1{
+p{
+    margin-top: 10px;
+}
+
+@media(max-width: 1048px) {
+    .img1 {
         width: 140vw;
     }
 }
 
-@media(max-width: 1048px){
-    .senai{
+@media(max-width: 1048px) {
+    .senai {
         width: 10vw;
     }
 }
 
-@media(max-width: 1148px){
-    .barra{
+@media(max-width: 1148px) {
+    .barra {
         width: 40vw;
     }
 }
 
-@media(max-width: 1048px){
-    .pesquisa{
+@media(max-width: 1048px) {
+    .pesquisa {
         width: 100vw;
         display: grid;
         grid-template-columns: 10vw 10vw 38vw 12vw 8vw 8vw;
@@ -127,9 +133,10 @@ header .texto{
     }
 }
 
-@media(max-width: 1307px){
-    .texto{
+@media(max-width: 1307px) {
+    .texto {
         font-size: 10px;
     }
 }
+
 
