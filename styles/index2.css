@@ -1,0 +1,60 @@
+.carousel-indicators {
+    margin-bottom: 0rem;
+
+}
+
+.row {
+    margin-left: calc(0 * var(--bs-gutter-x));
+    margin-right: calc(0 * var(--bs-gutter-x));
+
+
+}
+
+.row>* {
+    width: 50vw;
+    max-width: 25vw;
+}
+
+.imgk {
+    width: 150px;
+    height: 200px;
+    margin-left: 15px;
+
+}
+
+.card-body {
+    align-items: center;
+    text-align: center;
+    display: grid;
+    justify-content: space-around;
+}
+
+.card-body a {
+    align-items: center;
+    text-align: center;
+} 
+main .baixo{
+    text-align: center;
+
+}
+
+@media(min-width: 320px) and (max-width: 767px) {
+    .row {
+        margin-left: calc(0 * var(--bs-gutter-x));
+        margin-right: calc(0 * var(--bs-gutter-x));
+
+    }
+
+    .row>* {
+        width: 100vw;
+        max-width: 100vw;
+    }
+
+    .imgk {
+        width: 200px;
+        height: 200px;
+
+    }
+
+
+}
